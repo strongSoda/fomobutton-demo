@@ -1,5 +1,7 @@
 ## Demo Sites for FOMO Button
 
+This repo is used to create a demo site to send to the customer so they can test out the functionality of the FOMO button.  
+
 ### Steps
 
 1. Create a new folder for the new client by copying the `template` folder and renaming it.
