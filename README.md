@@ -15,3 +15,6 @@ This repo is used to create a demo site to send to the customer so they can test
   {ClientName}
 </a>
 ```
+
+4. After merging pull request, view results at https://fomobutton-demo.netlify.app/.
+
