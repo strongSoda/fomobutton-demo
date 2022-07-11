@@ -8,22 +8,9 @@
     <title>Document</title>
     <style>
         .center {
-            /* position: absolute;
-            top: 40%;
-            left: 40%; */
             width: 99vw;
             background-color: bisque;
         }
-        /* @media only screen and (max-width: 600px) {
-            .center {
-                left: 20%;
-            }
-        }
-        @media only screen and (min-width: 2000px) {
-            .center {
-                left: 45%;
-            }
-        } */
     </style>
 </head>
 
@@ -40,12 +27,12 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         
         
-        <link href="https://fomobutton.netlify.app/wall_im720/styles.css" rel="stylesheet" />
+        <link href="https://fomobutton.netlify.app/{client_folder_name}/styles.css" rel="stylesheet" />
 
         <!-- <button id="reviews-tigger-btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#ureka-modal" data-site-id="{client_folder_name}">
             Read reviews from your neighbors
         </button> -->
-        <div id="fomo-wall" data-site-id="wall_im720">
+        <div id="fomo-wall" data-site-id="{client_folder_name}">
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -59,8 +46,8 @@
             crossorigin="anonymous"></script>
         
         
-        <script src="https://fomobutton.netlify.app/wall_im720/reviews.js"></script>
-        <script src="https://fomobutton.netlify.app/wall_im720/index.js"></script>
+        <script src="https://fomobutton.netlify.app/{client_folder_name}/reviews.js"></script>
+        <script src="https://fomobutton.netlify.app/{client_folder_name}/index.js"></script>
         
         <!-- FOMO Button -->
         <!-- --------- END --------- -->
